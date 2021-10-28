@@ -109,7 +109,7 @@
         <item>
          <widget class="QLineEdit" name="lE_angle">
           <property name="text">
-           <string>45</string>
+           <string>60</string>
           </property>
           <property name="placeholderText">
            <string/>

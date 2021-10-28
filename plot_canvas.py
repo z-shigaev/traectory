@@ -28,6 +28,7 @@ class Layout(QVBoxLayout):
     def draw(self, x, y):
         self.figure.clear()
         self.ax = self.figure.add_axes([0.05, 0.1, 0.93, 0.85])
+        # plt.gca().set_aspect('equal', adjustable='box')
         self.ax.grid()
         self.ax.plot(x, y)
         self.canvas.draw()
